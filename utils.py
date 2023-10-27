@@ -26,6 +26,22 @@ hex_ner_map = {
     "#808080": []
 }
 
+label2digit = {
+    'No relation': 0,
+    'STRENGTH-DRUG': 1,
+    'ROUTE-DRUG': 2,
+    'FREQUENCY-DRUG': 3,
+    'FORM-DRUG': 4,
+    'DOSAGE-DRUG': 5,
+    'REASON-DRUG': 6,
+    'DURATION-DRUG': 7,
+    'ADE-DRUG': 8
+}
+def get_digit(x):
+    if x not in label2digit:
+        return 0
+    return label2digit[x]
+
 def html_parsing_ncbi(df: pd.DataFrame, col_name: str) -> Tuple[List[str], List[str]]:
     """
     Parse the html output to the format of the ground truth labels for the NCBI dataset.
