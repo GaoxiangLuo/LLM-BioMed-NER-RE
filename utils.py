@@ -166,7 +166,7 @@ def html_parsing_n2c2(df: pd.DataFrame, col_name: str) -> Tuple[List[str], List[
         pred_labels = ['O'] * len(gt_labels)
 
         # extract the content between '<span style="background-color: #XXXXXX">' and '</span>'
-        llm_html_output = df.iloc[i][col_name]
+        llm_html_output = df.iloc[i][col_name] if not pd.isnull(df.iloc[i][col_name]) else ''
 
         for k, v in hex_ner_map.items():
             hex_ner_map[k] = get_name_entity(llm_html_output, k)
@@ -197,3 +197,9 @@ def get_classification_report(df: pd.DataFrame, col_name1: str, col_name2: str, 
     assert len(y_true) == len(y_pred)
     
     return classifcation_report(tags_true=y_true, tags_pred=y_pred, mode=mode)
+
+def get_macro_average_f1(map):
+    f1_list = []
+    for _, v in map.items():
+        f1_list.append(v['f1-score'])
+    return sum(f1_list) / len(f1_list)
