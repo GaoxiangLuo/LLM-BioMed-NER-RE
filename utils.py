@@ -1,7 +1,7 @@
 import re
 import pandas as pd
 from typing import Tuple, List
-from ner_metrics import classifcation_report
+from ner_metrics import classification_report
 
 hex_name_map = {
     "#FF0000": "Form",
@@ -196,7 +196,7 @@ def get_classification_report(df: pd.DataFrame, col_name1: str, col_name2: str, 
     y_pred = [item for sublist in y_pred for item in sublist]
     assert len(y_true) == len(y_pred)
     
-    return classifcation_report(tags_true=y_true, tags_pred=y_pred, mode=mode)
+    return classification_report(tags_true=y_true, tags_pred=y_pred, mode=mode)
 
 def get_macro_average_f1(map):
     f1_list = []
