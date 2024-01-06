@@ -1,0 +1,21 @@
+id_in_original_dataset,text,labels
+4981,"Other side effects during [E2] IL/-/2 [E2/] therapy included mild/chills ; development of an erythematous/skin/rash ; [E1] nausea [E1/] , improved with lorazepam ; diarrhea , improved with Lomotil , and fatigue During this week , he developed acute renal failure with a peak creatinine of 7.3 , improved to 1.3 at the time of discharge .",ADE-DRUG
+55143,Pt was weaned off of noninvasive ventilation on the evening of [ ** 10 - 26 ** ] and has been having an [E2] oxygen [E2/] sat of 100 % on [E1] 6L [E1/] NC .,DOSAGE-DRUG
+60871,ID recommended Daptomycin and [E2] Ceftazidime [E2/] [E1] until/24hours/afebrile [E1/] .,DURATION-DRUG
+47230,"# PPX : HSQ , SCDs # ACCESS : PICC ( changed [ ** 7 - 28 ** ] ) # CODE : FULL # DISPO : to [ ** Hospital1 ** ] Medications on Admission : Ondansetron HCl 4/mg Oral Tablet take 1/to 2 tablets [E2] Diphenhydramine [E2/] HCl 50/mg Oral [E1] Capsule [E1/] 1 by/mouth up/to/3xday Prednisone 10/mg Oral Tablet take 6 -6-5-5-4-4-3-3-2-2-1 - 1 - ( [ ** 1 - 11 ** ] ) - ( [ ** 1 - 11 ** ] ) tablets daily on consecutive days .",FORM-DRUG
+42254,[E2] filgrastim [E2/] 300/mcg / mL SC Inj [E1] Q24H [E1/] for/5/days .,FREQUENCY-DRUG
+78897,A left central line was placed for access .,No relation
+52887,"Tonight at 5 pm , the pt was found to be c / o SOB with [E1] labored/breathing [E1/] but able to speak , received [E2] albuterol [E2/] neb without improvement .",REASON-DRUG
+41615,"[E2] Divalproex [E2/] 250/mg Tablet/,/Delayed/Release/(/E.C./) Sig : Two/(/2/) Tablet/,/Delayed/Release/(/E.C./) [E1] PO [E1/] QAM/(/once/a/day/(/in/the morning ) ) .",ROUTE-DRUG
+37899,[E2] Carvedilol [E2/] [E1] 12.5/mg [E1/] Tablet twice daily 3 .,STRENGTH-DRUG
+71698,Her counts/dropped in response to chemotherapy and she was neutropenic for several days .,No relation
+85003,She has been slow to heal and resummed chemo with gemzar on [ ** 2192-10-11 ** ] .,No relation
+56174,"Right vocal cord paralysis , with or without tumor involvement .",No relation
+21311,"Admission Date : [ ** 2166-5-5 ** ] Discharge Date : [ ** 2166-5-19 ** ] Date of Birth : [ ** 2083-4-14 ** ] Sex : M Service : MEDICINE Allergies : Patient recorded as having No Known Allergies to Drugs Attending :[ ** First Name3 ( LF ) 3984 ** ] Chief Complaint : Epigastric pain Major Surgical or Invasive Procedure : ERCP History of Present Illness : PCP : [ ** Name10 ( NameIs ) ** ] , [ ** Name11 ( NameIs ) 1575 ** ] [ ** Name Initial ( NameIs ) ** ] .",No relation
+49112,"Medications on Admission : - [E2] ALBUTEROL/SULFATE [E2/] 90/mcg [E1] 2 [E1/] puffs orally Q6/hours/PRN - DIGOXIN 125/mcg by/mouth every/other/day - FLUTICASONE/-/SALMETEROL 500/mcg/-/50/mcg inhaled twice/a/day - FUROSEMIDE 10/mg PO daily - GABAPENTIN 300/mg PO daily - HYDROCORTISONE 10/mg QAM and 5/mg QPM/daily - IPRATROPIUM/-/ALBUTEROL 18/mcg/-/103/mcg 2 puffs orally Q6hr/:/PRN - METOPROLOL/SUCCINATE 25/mg by/mouth DAILY - NITROGLYCERIN 0.4/mg sublingually as/needed for chest/pain x3 - ROSUVASTATIN 10/mg daily - SPIRONOLACTONE 25/mg by/mouth once/a/day - TIOTROPIUM/BROMIDE 18/mcg inhaled daily - VALACYCLOVIR 1,000/mg by/mouth twice/a/day - WARFARIN 2.5/mg by/mouth daily/on/Mondays - WARFARIN 5/mg by/mouth daily/on/Tues/-/Sun - ASCORBIC/ACID 500/mg by/mouth daily - ASPIRIN - GLUCOSAMINE 1,000 by/mouth daily - MULTIVITAMIN one Tablet ( s ) by/mouth daily - SENNA Discharge Medications : 1 .",DOSAGE-DRUG
+60188,"She was seen by surgery and a likely congenital ( Bochdalek ) diaphragatic hernia was diagnosed , without obvious lung aplasia or dysfunction .",No relation
+44704,Cardiomediastinal contours are unchanged .,No relation
+33907,[E2] Valsartan [E2/] 40/mg Tablet Sig : [E1] 0.5 [E1/] Tablet PO DAILY/(/Daily/) .,DOSAGE-DRUG
+25450,[E2] Oxycodone/-/Acetaminophen [E2/] [E1] 5/-/325/mg [E1/] Tablet Sig : 1/-/2 Tablets PO Q4H/(/every/4/hours/)/as/needed for pain : do not exceed 12 pills in any 24 hour period .,STRENGTH-DRUG
+86783,"Ext : no c / c / e , cool extremities .",No relation
+58842,Torsemide 100/mg PO DAILY Hold for SBP < 90 RX * [E2] torsemide [E2/] 100/mg 1 [E1] tablet [E1/] ( s ) by/mouth daily Disp # * 30 Tablet Refills : * 0 8 .,FORM-DRUG
