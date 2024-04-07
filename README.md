@@ -25,6 +25,15 @@ This repository contains the LLM evaluation code for the npj Digital Medicine pa
         <th style="border-bottom: 1px solid black; text-align:center" colspan="2">F1</th>
     </tr>
     <tr>
+        <td>Mistral 8x7B Instruct</td>
+        <td>0.409</td>
+        <td>0.587</td>
+        <td>0.514</td>
+        <td>0.648</td>
+        <td>0.314</td>
+        <td>0.459</td>
+    </tr>
+    <tr>
         <td>GPT 3.5</td>
         <td>0.575</td>
         <td>0.719</td>
@@ -114,6 +123,7 @@ More details of the datasets can be found in [`data`](data).
 ## Models
 | **Model** | **RLHF-Tuned** | **Instruction-Tuned**| **Max Input Tokens** | 
 | :--- | :---: | :---: | :---: |
+| Mistral 8x7B | No | Yes | 32K |
 | GPT 3.5 (Chat) | Yes | No |16K |
 | GPT 4 (Chat) | Yes | No |128K |
 | PaLM 2 Bison (Chat) | No | No |8K |
