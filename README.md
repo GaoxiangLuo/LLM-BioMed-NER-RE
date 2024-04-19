@@ -79,6 +79,15 @@ This repository contains the LLM evaluation code for the npj Digital Medicine pa
         <td>0.541</td>
     </tr>
     <tr>
+        <td>Llama 3 70B Instruct</td>
+        <td>0.685</td>
+        <td>0.786</td>
+        <td>0.551</td>
+        <td>0.695</td>
+        <td>0.319</td>
+        <td>0.458</td>
+    </tr>
+    <tr>
         <td style="border-bottom: 1px solid black;">Claude 3 Opus</td>
         <td style="border-bottom: 1px solid black; text-decoration: underline">0.788</td>
         <td style="border-bottom: 1px solid black; text-decoration: underline">0.879</td>
@@ -116,6 +125,10 @@ This repository contains the LLM evaluation code for the npj Digital Medicine pa
     </tr>
 </table>
 
+**NOTE:** 
+- GPTs' checkpoints are `gpt-4-1106-preview` and `gpt-3.5-turbo-1106`.
+- Mistral 8x7B Instruct was running on half-precision (~85GB), and Llama 3 70B Instruct was running on 4-bit quantization (~45 GB).
+
 
 ## Data
 More details of the datasets can be found in [`data`](data).
@@ -130,6 +143,7 @@ More details of the datasets can be found in [`data`](data).
 | PaLM 2 Unicorn (Text) | No | No| 8K |
 | Gemini Pro (Chat) | No | No |32K |
 | Claude 3 (Chat) | Yes | No | 200K |
+| Llama 3 70B | Yes | Yes | 8K |
 
 The models used in this paper are mostly chat models and a text-completion model without specifically tuning for NER and RE tasks. We applied in-context learning by providing examples as prompts to the models. Even with 20-shot prompting, the input tokens length is still within 8K, which all models can handle in its context window. 
 
